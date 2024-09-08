@@ -10,7 +10,7 @@ library(DT)
 library(leafpop)
 
 
-scoring <- read_csv("https://www.dropbox.com/s/d9silcf3rgjg1jx/ranking_for_leaflet.csv?dl=1")
+scoring <- read_csv("./ranking_for_leaflet.csv")
 scoring$score_cate <- NA
 
 scoring[scoring$Overall >= 8, "score_cate"] <- "High"
