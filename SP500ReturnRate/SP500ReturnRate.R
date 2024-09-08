@@ -48,8 +48,8 @@ corr_theme <-
 
 # Define UI for application
 ui <- fluidPage(
-  tags$style(type='text/css', "table { font-size: 20px; }"),
-  titlePanel(h3("Monthly Return Rates of S&P500 Companies (Source: Yahoo finance)")),
+  tags$style(type='text/css', "table { font-size: 15px; }"),
+  titlePanel("Monthly Return Rates of S&P500 Companies (Source: Yahoo finance)"),
   
   sidebarLayout(
     sidebarPanel(
