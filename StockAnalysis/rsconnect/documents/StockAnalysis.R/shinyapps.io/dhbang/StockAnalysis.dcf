@@ -1,0 +1,13 @@
+name: StockAnalysis
+title: StockAnalysis
+username: dhbang
+account: dhbang
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14387225
+bundleId: 10033456
+url: https://dhbang.shinyapps.io/StockAnalysis/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: nasdaq_screener_1743447769990.csv|nasdaq_screener_1743447801367.csv
